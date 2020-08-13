@@ -1,0 +1,2 @@
+# ui-component library copied to the app folder for Docker build on a developer machine
+/ui-components.tgz
