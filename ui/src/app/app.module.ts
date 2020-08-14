@@ -17,6 +17,9 @@ import { PlotlyBarchartComponent } from './visualization-packages/plotly.js/plot
 import { PlotlyScatterplotComponent } from './visualization-packages/plotly.js/plotly-scatterplot/plotly-scatterplot.component';
 import { PlotlyPageComponent } from './pages/plotly-page/plotly-page.component';
 import { ChartPageComponent } from './pages/chart-page/chart-page.component';
+import { PlotlyBubblechartComponent } from './visualization-packages/plotly.js/plotly-bubblechart/plotly-bubblechart.component';
+import { HowToComponent } from './pages/how-to/how-to.component';
+import { PlotlyPiechartComponent } from './visualization-packages/plotly.js/plotly-piechart/plotly-piechart.component';
 
 // PlotlyModule.plotlyjs = PlotlyJS;
 PlotlyViaCDNModule.plotlyVersion = '1.49.4';
@@ -34,7 +37,10 @@ PlotlyViaCDNModule.plotlyVersion = '1.49.4';
     ChartDoughnutChartComponent,
     PlotlyScatterplotComponent,
     PlotlyPageComponent,
-    ChartPageComponent
+    ChartPageComponent,
+    PlotlyBubblechartComponent,
+    HowToComponent,
+    PlotlyPiechartComponent
   ],
   imports: [
     BrowserModule,
