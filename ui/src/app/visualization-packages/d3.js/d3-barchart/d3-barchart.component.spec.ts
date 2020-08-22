@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HowToComponent } from './how-to.component';
+import { D3BarchartComponent } from './d3-barchart.component';
 
-describe('HowToComponent', () => {
-  let component: HowToComponent;
-  let fixture: ComponentFixture<HowToComponent>;
+describe('D3BarchartComponent', () => {
+  let component: D3BarchartComponent;
+  let fixture: ComponentFixture<D3BarchartComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HowToComponent ]
+      declarations: [ D3BarchartComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HowToComponent);
+    fixture = TestBed.createComponent(D3BarchartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

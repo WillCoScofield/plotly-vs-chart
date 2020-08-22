@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ChartPageComponent } from './pages/chart-page/chart-page.component';
-import { HowToComponent } from './pages/how-to/how-to.component';
+import { D3PageComponent } from './pages/d3-page/d3-page.component';
 import { PlotlyPageComponent } from './pages/plotly-page/plotly-page.component';
 
 
@@ -15,8 +15,8 @@ const routes: Routes = [
     component: ChartPageComponent
   },
   {
-    path: 'how-to',
-    component: HowToComponent
+    path: 'd3',
+    component: D3PageComponent
   }
 ];
 
