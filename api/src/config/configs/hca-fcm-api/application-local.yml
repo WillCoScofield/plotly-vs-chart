@@ -1,7 +1,0 @@
-security:
-  auth:
-    client-id: 00077930-2f06-1dd4-9b4e-a3911e870000
-
-facilities:
-  data:
-    api-url: https://cuit075ohc.execute-api.us-east-1.amazonaws.com/dev/fcmdashboard
