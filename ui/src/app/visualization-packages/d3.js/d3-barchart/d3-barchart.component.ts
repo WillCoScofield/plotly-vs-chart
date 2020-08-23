@@ -4,11 +4,11 @@ import {
   ElementRef,
   Input,
   OnChanges,
-  OnInit,
   ViewChild,
   ViewEncapsulation
   } from '@angular/core';
 import * as d3 from 'd3';
+ // size
 
 
 export interface DataModel {
@@ -18,7 +18,7 @@ export interface DataModel {
 
 @Component({
   selector: 'app-d3-barchart',
-  encapsulation: ViewEncapsulation.None,
+  encapsulation: ViewEncapsulation.None, // dynamic modifications to the DOM by D3 don’t play well with the default Angular styling
   templateUrl: './d3-barchart.component.html',
   styleUrls: ['./d3-barchart.component.scss']
 })
