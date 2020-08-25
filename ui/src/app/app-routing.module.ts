@@ -7,11 +7,11 @@ import { PlotlyPageComponent } from './pages/plotly-page/plotly-page.component';
 
 const routes: Routes = [
   {
-    path: 'plotlyjs',
+    path: 'plotly',
     component: PlotlyPageComponent
   },
   {
-    path: 'chartjs',
+    path: 'chart',
     component: ChartPageComponent
   },
   {

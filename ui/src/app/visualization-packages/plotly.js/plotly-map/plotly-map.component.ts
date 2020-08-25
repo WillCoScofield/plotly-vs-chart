@@ -20,7 +20,7 @@ export class PlotlyMapComponent implements OnInit {
     countrycolor: 'rgb(255,255,255)',
   };
 
-  mapTypeData = [
+  mapDataObj = [
     {
       type: 'scattergeo',
       locationmode: 'USA-states',
@@ -42,7 +42,7 @@ export class PlotlyMapComponent implements OnInit {
   ];
 
   graph = {
-    data: this.mapTypeData,
+    data: this.mapDataObj,
     layout: {
       autosize: true,
       geo: this.mapGeoData,
