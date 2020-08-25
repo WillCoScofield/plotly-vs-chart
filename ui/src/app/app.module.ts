@@ -22,6 +22,7 @@ import { PlotlyBarchartComponent } from './visualization-packages/plotly.js/plot
 import { PlotlyBubblechartComponent } from './visualization-packages/plotly.js/plotly-bubblechart/plotly-bubblechart.component';
 import { PlotlyPiechartComponent } from './visualization-packages/plotly.js/plotly-piechart/plotly-piechart.component';
 import { PlotlyScatterplotComponent } from './visualization-packages/plotly.js/plotly-scatterplot/plotly-scatterplot.component';
+import { PlotlyMapComponent } from './visualization-packages/plotly.js/plotly-map/plotly-map.component';
 
 // PlotlyModule.plotlyjs = PlotlyJS;
 PlotlyViaCDNModule.plotlyVersion = '1.49.4';
@@ -43,7 +44,8 @@ PlotlyViaCDNModule.plotlyVersion = '1.49.4';
     PlotlyBubblechartComponent,
     PlotlyPiechartComponent,
     D3BarchartComponent,
-    D3PageComponent
+    D3PageComponent,
+    PlotlyMapComponent
   ],
   imports: [
     BrowserModule,
